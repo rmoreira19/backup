@@ -1,0 +1,212 @@
+html{
+    background-color:#869960;
+}
+body{
+    font-family: Tahoma, sans-serif;
+    font-size: 87%;
+}
+/*tabela*/
+
+table{
+    border-spacing: 0px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.nome{
+    width: 60%;
+}
+
+.quant, .price{
+    width: 20%;
+}
+
+table th{
+    text-align: left;
+    background-color: #869960;
+    color:#fff;
+    text-shadow: 1px 1px 0 rgba(0,0,0,.4);
+}
+
+table th, table td{
+    border:1px solid #869960;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+table tbody tr:nth-child(even) td{
+    background-color: #e5e9dc;
+}
+
+table tr :nth-child(2), table tr :nth-child(3){
+    text-align:center;
+}
+
+/*fim da tabela*/
+
+/*imagem*/
+
+.imagem{
+    max-width: 100%;
+    height: auto;
+    display:block;
+}
+.img-banner{
+    position:relative;
+}
+
+.img-texto{
+    position:absolute;
+    bottom:0;
+    left:0;
+    color: #fff;
+    background-color: rgba(0,0,0,0.65);
+    padding: 15px 25px;
+    box-sizing: border-box;
+}
+
+/*fim da imagem*/
+
+header{
+    color:#617140;
+    
+}
+header h1{
+    margin:0;
+    font-weight: normal;
+    font-size: 165%;
+    
+}
+header p{
+    margin:0;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+}
+/*menu*/
+nav{
+    margin-bottom: -4px;
+}
+.site-nav li{
+    list-style:none;
+    text-shadow: .5px .5px 0 rgba(0,0,0,.4);
+    display: inline;
+}
+
+.site-nav ul{
+    padding:0;
+}
+.site-nav a{
+    color:#617140;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 3px solid #e5e9dc;
+    border-bottom: none;
+    }
+
+.site-nav a:hover{
+    background-color:#e5e9dc;
+}
+
+/*fim do menu*/
+
+
+.container{
+    
+    padding:30px;
+    box-sizing: border-box;
+    background-color: white;
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main{
+
+    border-top: 3px solid #e5e9dc;
+    border-bottom: 3px solid #e5e9dc;
+    
+}
+.mainf{
+ 
+    width:66%;
+    float: left;
+    padding-right: 30px;
+    box-sizing: border-box;
+    text-align: justify;
+}
+.mains{
+    width:34%;
+    float:left;
+    background-color:#e5e9dc;
+    padding: 30px;
+    box-sizing: border-box;
+    font-size: 85%;
+    text-align: justify;
+}
+.fix{
+    clear:both;
+}
+
+/*formulário*/
+form{
+    margin-top: -10px;
+    background-color: #ececec;
+    padding: 30px 40px;
+}
+
+input, select{
+    font-family: Tahoma, sans-serif;
+    font-size: 87%;
+}
+
+.hidden-label{
+    position:absolute;
+    height: 0;
+    width: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+input[type="email"], input[type="password"], select{
+    width: 100%;
+    display: block;
+    padding: 0 10px;
+    box-sizing: border-box;
+    height: 40px;
+    margin-bottom: 15px;
+    border: 1px solid #cdcdcd;
+    outline: none;
+}
+input[type="email"]:focus, input[type="password"]:focus{
+    border: 1px solid #869960;
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, .2);
+}
+input[type="submit"]{
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    background-color: #869960;
+    color: #fff;
+    text-shadow: 1px 1px 0 rgba(0,0,0,.4);
+    padding: 10px 0;
+    border: 1px solid #798a56;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+.checkbox-text{
+    font-size: 80%;
+    color: #777;
+}
+
+input[type="submit"]:hover, input[type="submit"]:focus{
+    border: 1px solid #535e3b;
+    background-color: #798a56;
+}
+/*fim do formulário*/
+
+footer{
+    text-align: center;
+    font-size: 85%;
+    color:#999;
+}
